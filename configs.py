@@ -7,16 +7,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", 12345))
-    API_HASH = os.getenv("API_HASH", "")
+    API_ID = int(os.getenv("API_ID", "13290427"))
+    API_HASH = os.getenv("API_HASH", "c33b2f280810fc2f60a6387a4c4217f2")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -100))
-    BOT_USERNAME = os.getenv("BOT_USERNAME")
-    BOT_OWNER = int(os.getenv("BOT_OWNER"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001711211283"))
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "Arymovies_bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5079629749"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Aryan_kumar_10")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "ary_backup")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
@@ -38,7 +38,7 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "ary_backup")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
-    MDISK_API = os.getenv("MDISK_API", "12334")
+    MDISK_API = os.getenv("MDISK_API", "l1byxdzqYxkvia9Qodpd")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "365"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅
 
